@@ -26,7 +26,7 @@ def run_flow(message: str) -> dict:
 
 
 def main():
-    st.title("Chat Interface")
+    st.title("Customer Chat Interface")
     message = st.text_area("Message", placeholder="Ask something...")
 
     if st.button("Run Flow"):
